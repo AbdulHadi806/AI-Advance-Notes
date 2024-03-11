@@ -7,6 +7,8 @@ A data scientist's purpose is to give data insights through finding patterns. We
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/597cb69f-6d64-4536-b71c-c836b8540219">
 
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/9bea0b4f-8269-43a6-9c1a-ac5555ee4502">
+
 ## Statistical Distribution of Attributes
 
 ### Central Tendency: Central tendency refers to the typical or central value around which the data points tend to cluster. There are several measures of central tendency:
