@@ -41,5 +41,7 @@ These measures give different insights into the central value of a dataset, and 
 
 ## Preprocessing
 
+<img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/2dd1e2a1-6ace-45d8-9536-b5f8358da420">
+
 ### PCA(principal component analysis)
 PCA takes data, finds patterns, it figures out which pattern is more closely related. Once it finds these patterns, PCA creates new components called principal components. These components are combinations of the original attributes. Then PCA checks for similar data and discards the data that is not related, thus it reduces the dimensions of the data.
