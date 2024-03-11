@@ -50,3 +50,7 @@ PCA takes data, finds patterns, it figures out which pattern is more closely rel
 
 ### Normalization
 [Famouse Normalization techniques StandardScaler, Min-Max](https://github.com/AbdulHadi806/Machine-learning-Basic-notes/blob/main/Machine-learning-Basic-notes/MLMaths/BasicMaths.md#scaling-data-evaluating-models-on-data)
+
+### Residual analysis in regression
+Residual analysis in regression is a technique in which an analyst checks the actual value to the predicted value then the analyst plots it, through plotting the analyst is able to analyze the non-linearity, outliers, etc. Residual analysis helps validate the model's assumptions and identify areas for improvement.
+
