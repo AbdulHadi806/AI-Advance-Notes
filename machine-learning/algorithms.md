@@ -12,6 +12,12 @@ A decision tree takes the best feature and creates decision node based on that f
 
 **High Variance** When the model is given new data than it may give larger errors.
 
+#### Recommanded theoretical Notes by sequence
+
+[1) Decision Tree](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/decision%20tree.pdf)
+
+[2) Post Prunning And Pre Prunning](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/Postprunning%20and%20preprunning%20decision%20tree.pdf)
+
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/ec9b2d47-7c04-430f-9930-fba4b7ade618">
 
 <img width="400" alt="image" src
