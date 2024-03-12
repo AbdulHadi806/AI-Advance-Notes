@@ -1,5 +1,7 @@
 # ML Common Algorithms
 
+[More Advance Notes to refer to](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials)
+
 ## Classifiers
 
 ### Decision Tree Classifier
@@ -12,7 +14,8 @@ A decision tree takes the best feature and creates decision node based on that f
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/ec9b2d47-7c04-430f-9930-fba4b7ade618">
 
-<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/8e03d9ab-61db-4805-a793-45b83220c5b5">
+<img width="400" alt="image" src
+  ="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/8e03d9ab-61db-4805-a793-45b83220c5b5">
 
 ### Random Forest Classifier
 
