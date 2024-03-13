@@ -30,3 +30,7 @@ In Random Forest Classifier, we take random rows from the subset and provide it 
 Random Forest Increases Bias while decreases variance because of the term averaging, in random forest majority trees answer is taken as output.
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/d87e59ca-c1e1-461a-b432-64d45b7b51b3">
+
+### Gradient Boosting Classifier
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/02bae323-5769-405b-8e0d-05459f673c1f">
