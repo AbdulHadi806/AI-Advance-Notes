@@ -32,3 +32,6 @@ resulting in underfitting.
 This is the term used when a model memorizes the training data rather than underlying patterns, this happens when model is really complex as compared to the training dataset.
 This casues overfitting.
 
+# Shortcoming of Conventional Machine Learning
+
+<img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/a3d1065a-ad9b-4e13-8f54-f88190394dd7">
