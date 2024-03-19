@@ -1,5 +1,11 @@
 # ML basic notes 
 
+## Machine Learning
+
+### Ensemble Learning
+
+Machine learning in which we build a model on top of other models is called ensemble learning for example Random Forest.
+
 ## Terminologies
 
 ### Underfitting
