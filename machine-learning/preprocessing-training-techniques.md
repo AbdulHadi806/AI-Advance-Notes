@@ -22,3 +22,17 @@ grid_search = GridSearchCV(forest_reg, param_grid, cv=5,
  scoring='neg_mean_squared_error')
 grid_search.fit(housing_prepared, housing_labels)
 ```
+
+## Techniques
+
+### Bootstrap Sampling
+It is the method where random samples of data are drawn with replacements from the original dataset. This means that each sample can contain 
+duplicate instances of the original data, and some instances may not be included at all. This process results in multiple datasets (bootstrap samples)
+of the same size as the original dataset.
+
+### Bootstrap Aggregating(Bagging):
+Bagging in terms of Random Forest is the technique of training multiple decision trees on different bootstrap samples of the training data and averaging their predictions to improve the model's accuracy and reduce overfitting.
+
+### Boosting
+Boosting is the technique in which we train multiple models and each model trained performs better than the previous model. In boosting we can create
+multiple decision trees and this technique assigns weights to each model result on the basis of accuracy and results are given according to it.
