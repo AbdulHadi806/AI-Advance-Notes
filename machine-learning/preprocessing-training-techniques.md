@@ -22,6 +22,10 @@ grid_search = GridSearchCV(forest_reg, param_grid, cv=5,
  scoring='neg_mean_squared_error')
 grid_search.fit(housing_prepared, housing_labels)
 ```
+Grid Search is useful when we are exploring relatively few combinations. However when the hyperparameter search is large, it is often preferable
+to use **RandomSearchCV** instead. This class can be used in much the same way as the **GridSearchCV**, but instead trying out all possible combinations, it evaluates the given number of random combinations by selecting a random value for each hyperparameter at each iteration. This approach has two benifts:
+- If we let the randomized search run for, say, 1000 iterations, this approach will explore 1,000 different values for each hyperparameters (instead of just a few values per hyperparameter with the grid search approach).
+- We have more control over the computing budget we want to allocate to hyperparameter search, simply by setting the number of iterations.
 
 ## Techniques
 
