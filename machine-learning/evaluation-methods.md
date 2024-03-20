@@ -31,3 +31,11 @@ f1_score(y_train_5, y_pred)
 ```
 
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/ba66a76c-083e-481b-a9b4-adc07fa961d7">
+
+## Precision/Recall Tradeoff
+Precision/Recall tradeoff means that if we increase Recall then precision will decrease or vice versa, we cannot keep both high. There are use cases
+where we need the precision to be high while some areas where we need Recall to be high, in such a case we adjust it according to our needs. For
+example in the case of a security system, we would prefer Recall to be high in which we need to predict all shoplifters in such a case 30% precision
+will be good and we will get 99% recall meaning all shoplifters will get arrested but yes there will be some false alerts but at least all shoplifters
+will get arrested. Similarly, in a video system where we will need to block all bad videos, we will need higher precision meaning videos that are
+also good may get blocked but at least we won't be able to see any thing bad.
