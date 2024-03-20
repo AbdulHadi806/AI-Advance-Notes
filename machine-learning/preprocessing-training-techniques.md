@@ -1,5 +1,14 @@
 # Preprocessing and Training Techniques
 
+# Basic steps to do in each project(for beginners)
+- Read the dataframe
+- Print the dataframe
+- Plot the dataframe
+- Check for correlation
+- Check if you can create more features that may be more correlated
+- Encode the categorical labels
+- Normalize the dataframe
+- Apply Regression or Classification according to your need
 
 ## Training
 ### Cross-validation
