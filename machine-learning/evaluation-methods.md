@@ -18,3 +18,16 @@ confusion_matrix(y_train_5, y_train_pred)
 ## Recall
 
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/1ae0e9fd-2783-45f6-b2df-d1e4cee46384">
+
+## F1 score
+
+It is often convenient to combine the precision and recall into a single metric called the F1 score, in particular if you need a simple way to compare
+two classifiers. The F1 score is the harmonic mean of precision and recall, whereas the regular mean treats all values equally, the Aharmonic mean
+gives more weight to low values. As a result, the classifier will only get a high F1 score if both recall and precision are high.
+
+```
+from sklearn.metrics import f1_score
+f1_score(y_train_5, y_pred)
+```
+
+<img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/ba66a76c-083e-481b-a9b4-adc07fa961d7">
