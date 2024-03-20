@@ -1,6 +1,6 @@
 # Preprocessing and Training Techniques
 
-# Basic steps to do in each project(for beginners)
+## Basic steps to do in each project(for beginners)
 - Read the dataframe
 - Print the dataframe
 - Plot the dataframe
