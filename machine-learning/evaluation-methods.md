@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 confusion_matrix(y_train_5, y_train_pred)
 ```
 
-[Confusion Matrix more details)(https://github.com/AbdulHadi806/Machine-learning-Basic-notes/blob/main/Machine-learning-Basic-notes/MLMaths/BasicMaths.md#confusion-matric)
+[Confusion Matrix more details](https://github.com/AbdulHadi806/Machine-learning-Basic-notes/blob/main/Machine-learning-Basic-notes/MLMaths/BasicMaths.md#confusion-matric)
 
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/826e32ae-177d-4ff6-859c-8c735df136fa">
 
