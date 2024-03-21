@@ -9,6 +9,8 @@
 Multilabel classification is the type of classification in which we need to predict more than one class for example an image where you need to predict
 people. The image has 2 people and we need to predict there names(data of those people have already been provided) then what the model will do is that it will have to predict 2 classes for example, Ali and Ahmed. Let's say now we want to check if Ali, Ahmed and let's say Sam is in the picture, our model will say [1,1,0] meaning [1=ali, 2=ahmed, 3=sam]
 
+<img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/f7b0f9c2-b835-464d-90aa-f6b117288ed4">
+
 ### Decision Tree Classifier
 
 A decision tree takes the best feature and creates a decision node based on that feature. Then the data is split into two branches based on whether the samples satisfy the condition of that feature or not. The decision tree has low Bias and High Variance.
