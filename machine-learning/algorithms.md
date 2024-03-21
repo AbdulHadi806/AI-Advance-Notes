@@ -27,7 +27,7 @@ A decision tree takes the best feature and creates decision node based on that f
 
 In Random Forest Classifier, we take random rows from the subset and provide it to the decision trees, Random Forest Classifier has low variance and high Bias
 
-Random Forest Increases Bias while decreases variance because of the term averaging, in random forest majority trees answer is taken as output.
+Random Forest Increases Bias while decreases variance because of the term averaging, in random forest majority of trees' answers are taken as output.
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/d87e59ca-c1e1-461a-b432-64d45b7b51b3">
 
@@ -35,8 +35,10 @@ Random Forest Increases Bias while decreases variance because of the term averag
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/02bae323-5769-405b-8e0d-05459f673c1f">
 
-### One vs all and one vs one
+### One vs all(OvA) and one vs one(OvO)
 Many classification algorithms are unable to do multiple classifications so thus multiple classification models are created e.g logistic regression. In
 such a case each model is trained to classify one category e.g cat or not. Another approach is one vs one in which models are created for classifying binary categories e.g cat and dog classifier then cat and lion classifier then lion and dog classifier.
 
 In some situations, One vs all classification is required while in some one vs one is required.
+
+One disadvantage of one vs all is that it is slow when working with large datasets, because for example if there are 10000 rows and 3 target categories then the data will be re-read as much as 30000 rows.
