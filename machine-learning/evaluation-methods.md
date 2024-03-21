@@ -43,9 +43,9 @@ will get arrested. Similarly, in a video system where we will need to block all 
 also good may get blocked but at least we won't be able to see anything bad.
 
 ## How can precision and recall be adjusted
-Precision and recall can be adjusted by playing with the threshold value. Increases threshold increases precision while decreases threshold value
+Precision and recall can be adjusted by playing with the threshold value. Increasing the threshold increases precision while decreasing the threshold value
 increases recall and decreases precision.
 
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/d1811472-bcd3-4491-b135-becfebff6866">
 
-We can see that precision slope is a little bumpier around 400000 threshold, this is because precision sometimes decreases when threshold increases.
+We can see that precision slope is a little bumpier around 400000 threshold, this is because precision sometimes decreases when the threshold increases.
