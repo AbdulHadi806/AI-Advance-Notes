@@ -34,3 +34,9 @@ Random Forest Increases Bias while decreases variance because of the term averag
 ### Gradient Boosting Classifier
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/02bae323-5769-405b-8e0d-05459f673c1f">
+
+### One vs all and one vs one
+Many classification algorithms are unable to do multiple classifications so thus multiple classification models are created e.g logistic regression. In
+such a case each model is trained to classify one category e.g cat or not. Another approach is one vs one in which models are created for classifying binary categories e.g cat and dog classifier then cat and lion classifier then lion and dog classifier.
+
+In some situations, One vs all classification is required while in some one vs one is required.
