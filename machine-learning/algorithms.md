@@ -4,15 +4,20 @@
 
 ## Classifiers
 
+### Multilabel classification
+
+Multilabel classification is the type of classification in which we need to predict more than one class for example an image where you need to predict
+people. The image has 2 people and we need to predict there names(data of those people have already been provided) then what the model will do is that it will have to predict 2 classes for example, Ali and Ahmed. Let's say now we want to check if Ali, Ahmed and let's say Sam is in the picture, our model will say [1,1,0] meaning [1=ali, 2=ahmed, 3=sam]
+
 ### Decision Tree Classifier
 
-A decision tree takes the best feature and creates decision node based on that feature. Than the data is split into two branches based on whether the samples satisfy the condition of that feature or not . Decision tree has low Bias and High Variance.
+A decision tree takes the best feature and creates a decision node based on that feature. Then the data is split into two branches based on whether the samples satisfy the condition of that feature or not. The decision tree has low Bias and High Variance.
 
 **Low Bias** Model is trained well on the training dataset. Training gives fewer errors.
 
 **High Variance** When the model is given new data than it may give larger errors.
 
-#### Recommanded theoretical Notes by sequence
+#### Recommended theoretical Notes by sequence
 
 [1) Decision Tree](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/decision%20tree.pdf)
 
