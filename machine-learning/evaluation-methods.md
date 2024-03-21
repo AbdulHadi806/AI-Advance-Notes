@@ -49,3 +49,6 @@ increases recall and decreases precision.
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/d1811472-bcd3-4491-b135-becfebff6866">
 
 We can see that precision slope is a little bumpier around 400000 threshold, this is because precision sometimes decreases when the threshold increases.
+
+## ROC curve
+The ROC curve is a tool used with binary classification, similar to the precision/recall curve. Instead of plotting precision versus recall, the ROC curve plots the true positive rate(recall) against the false positive rate. The false positive rate is the ratio of negative instances incorrectly classified as positive. The ROC curve shows a tradeoff: the higher the recall, the more false positives the classifier produces. A good classifier stays away from the line representing a pure random classifier. The area under the ROC curve (AUC) measures the classifier performance with 1 indicating a perfect classifier and 0.5 a pure random classifier.
