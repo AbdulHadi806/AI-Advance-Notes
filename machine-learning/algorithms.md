@@ -49,3 +49,22 @@ such a case each model is trained to classify one category e.g cat or not. Anoth
 In some situations, One vs all classification is required while in some one vs one is required.
 
 One disadvantage of one vs all is that it is slow when working with large datasets, because for example if there are 10000 rows and 3 target categories then the data will be re-read as much as 30000 rows.
+
+## Regression
+
+### Polynomial Regression
+Polynomial Regression is an advanced version of Linear Regression. Polynomial Regression is used when data is too complex. In polynomial Regression we create new features from existing features by taking square root, cube root etc depending upon the degree.
+
+```
+from sklearn.preprocessing import PolynomialFeatures
+poly_features = PolynomialFeatures(degree=2, include_bias=False)
+X_poly = poly_features.fit_transform(X)
+
+lin_reg = LinearRegression()
+lin_reg.fit(X_poly, y)
+```
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/197e1951-cc96-410a-b846-bcbe347efa0d">
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/358202a2-d519-455e-9ae8-033ed6a208d5">
+
