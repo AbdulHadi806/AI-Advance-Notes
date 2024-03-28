@@ -53,7 +53,7 @@ One disadvantage of one vs all is that it is slow when working with large datase
 ## Regression
 
 ### Polynomial Regression
-Polynomial Regression is an advanced version of Linear Regression. Polynomial Regression is used when data is too complex. In polynomial Regression we create new features from existing features by taking square root, cube root etc depending upon the degree.
+Polynomial Regression is an advanced version of Linear Regression. Polynomial Regression is used when data is too complex. In polynomial Regression, we create new features from existing features by taking the square root, cube root, etc depending upon the degree.
 
 ```
 from sklearn.preprocessing import PolynomialFeatures
@@ -68,3 +68,5 @@ lin_reg.fit(X_poly, y)
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/358202a2-d519-455e-9ae8-033ed6a208d5">
 
+### Ridge Regression
+Ridge Regression is a regularization technique that reduces overfitting in linear regression models.
