@@ -80,6 +80,7 @@ clf.fit(X, y)
 alpha in the code above is the penalizer itself in the link below it is seen as Lambda Y
 
 [Ridge Regression Maths](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/2-Ridge%20And%20Lasso%20Regression.pdf)
+[Practical Example](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/Ridge%20And%20Lasso%20Practical.ipynb)
 
 ### Lasso Regression (L1 Regularizer)
 Lasso Regression is a regularization technique. A plus point to lasso over L2 regularizer is that lasso regression also helps in feature selection.
