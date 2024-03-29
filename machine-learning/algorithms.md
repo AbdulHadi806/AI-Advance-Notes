@@ -68,5 +68,20 @@ lin_reg.fit(X_poly, y)
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/358202a2-d519-455e-9ae8-033ed6a208d5">
 
-### Ridge Regression
-Ridge Regression is a regularization technique that reduces overfitting in linear regression models.
+### Ridge Regression (L2 Regularizer)
+Ridge Regression is a regularization technique that reduces overfitting in linear regression models. Ridge regression penalizes the loss function due
+to this reason we are not able to get 0 in training thus preventing overfitting. By Ridge regression, we find the best parameters with which
+we will have loss that will be negligible but the best-fit line won't cause overfitting.
+
+```
+clf = Ridge(alpha=1.0)
+clf.fit(X, y)
+```
+alpha in the code above is the penalizer itself in the link below it is seen as Lambda Y
+
+[Ridge Regression Maths](https://github.com/krishnaik06/Machine-Learning-Algorithms-Materials/blob/main/2-Ridge%20And%20Lasso%20Regression.pdf)
+
+### Lasso Regression (L1 Regularizer)
+Lasso Regression is a regularization technique. A plus point to lasso over L2 regularizer is that lasso regression also helps in feature selection.
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/480e2a29-2b0f-4955-8751-84923e627d6c">
