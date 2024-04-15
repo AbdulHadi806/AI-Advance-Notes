@@ -34,10 +34,14 @@ or classifications on new data points. Achieving good generalization involves fi
 Complex models may memorize noise or irrelevant patterns leading to poor performance on new dataset(overfitting) while simple models may fail to capture important patterns in the data
 resulting in underfitting.
 
-# Memorization
+## Memorization
 This is the term used when a model memorizes the training data rather than underlying patterns, this happens when model is really complex as compared to the training dataset.
-This casues overfitting.
+This causes overfitting.
 
-# Shortcoming of Conventional Machine Learning
+## Shortcoming of Conventional Machine Learning
 
 <img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/a3d1065a-ad9b-4e13-8f54-f88190394dd7">
+
+## Model interpretation - Whitebox and black box models
+
+<img width="320" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/a0012505-1b12-44fb-ab73-3e0acd4c0ff0">
