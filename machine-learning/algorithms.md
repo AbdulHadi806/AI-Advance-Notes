@@ -89,7 +89,7 @@ Lasso Regression is a regularization technique. A plus point to lasso over L2 re
 
 
 
-### SVM (Handling non-linearity):
+### SVM classification (Handling non-linearity):
 
 #### Adding polynomial features
 This is a method where more features are created from existing features for example from x1 we create x2 by taking the square of x1. **Be aware**: By using this the size of the number of features increases meaning more computation will be required.
@@ -128,3 +128,13 @@ rbf_kernel_svm_clf.fit(X, y)
 
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/9e051583-7c1a-4239-8c97-f17a7472fdde">
+
+
+### SVM Regression
+
+Unlike the SVM classifier in which we try to create the largest possible street separating the data, in SVM regression we try to fit as many instances in the street as possible.
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/6f10f510-87be-4342-910b-4cbc16eff09c">
+
+
+For non-linear data, we can use **kernel trick** to manage it.
