@@ -86,3 +86,45 @@ alpha in the code above is the penalizer itself in the link below it is seen as 
 Lasso Regression is a regularization technique. A plus point to lasso over L2 regularizer is that lasso regression also helps in feature selection.
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/480e2a29-2b0f-4955-8751-84923e627d6c">
+
+
+
+### SVM (Handling non-linearity):
+
+#### Adding polynomial features
+This is a method where more features are created from existing features for example from x1 we create x2 by taking the square of x1. **Be aware**: By using this the size of the number of features increases meaning more computation will be required.
+
+```
+from sklearn.datasets import make_moons
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import PolynomialFeatures
+polynomial_svm_clf = Pipeline((
+ ("poly_features", PolynomialFeatures(degree=3)),
+ ("scaler", StandardScaler()),
+ ("svm_clf", LinearSVC(C=10, loss="hinge"))
+ ))
+polynomial_svm_clf.fit(X, y)
+```
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/36a5219f-7248-4fd6-9a17-005113a2f1c7">
+
+#### Polynomial Kernel
+
+#### Adding Similarity Features
+It creates more features
+
+#### Gaussian RBF Kernel
+Does the same thing as Adding Similarity Features but better. It uses a kernel trick
+
+```
+rbf_kernel_svm_clf = Pipeline((
+ ("scaler", StandardScaler()),
+ ("svm_clf", SVC(kernel="rbf", gamma=5, C=0.001))
+ ))
+rbf_kernel_svm_clf.fit(X, y)
+```
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/013c57fe-30e4-4e90-aa4c-a36d60fb225a">
+
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/9e051583-7c1a-4239-8c97-f17a7472fdde">
