@@ -138,3 +138,5 @@ Unlike the SVM classifier in which we try to create the largest possible street 
 
 
 For non-linear data, we can use **kernel trick** to manage it.
+
+<img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/24524ac5-32cd-455e-93f5-2a9965ac2e50">
