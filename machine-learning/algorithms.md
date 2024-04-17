@@ -140,3 +140,12 @@ Unlike the SVM classifier in which we try to create the largest possible street 
 For non-linear data, we can use **kernel trick** to manage it.
 
 <img width="400" alt="image" src="https://github.com/AbdulHadi806/AI-Advance-Notes/assets/113926529/24524ac5-32cd-455e-93f5-2a9965ac2e50">
+
+### Ensemble learning
+
+Ensemble learning is a technique where we train multiple models and get an output according to each model output for example averaging each output. A common example of Ensemble learning can be RandomForests where we train multiple decision trees, similarly training SVM, Linear Regression, and outputting the result according to each model's output is also an ensemble learning technique.
+
+#### Bagging and Pasting
+
+Bagging and pasting is where we train multiple models on a number of rows from a dataset. We take several rows from a dataset and provide them to run the models in groups i.e group1 will be given to model1 while group2 will be given to model2. In **Bagging** there can be repeated rows in multiple datasets while in **Pasting** observations are unique.
+Bagging is used when the dataset is large while pasting is used when we have a small dataset. Practically I haven't seen much performance difference,
